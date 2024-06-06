@@ -64,7 +64,6 @@ Siga os passos abaixo para configurar e rodar a aplicação localmente:
 - **Página Principal**: Acesse as abas "Characters" e "Episodes" para navegar entre os personagens e episódios.
 - **Busca**: Utilize a barra de busca para filtrar personagens ou episódios por nome.
 - **Detalhes do Personagem**: Clique em um personagem na lista para ver mais detalhes.
-- **Detalhes do Episódio**: Clique em um episódio na lista para ver mais informações.
 
 ### Componentes
 
@@ -156,3 +155,6 @@ src/
 - **TypeScript**: Linguagem principal utilizada no projeto.
 - **HTML/CSS**: Linguagens para marcação e estilização da aplicação.
 - **API Rick and Morty**: Fonte de dados para personagens e episódios.
+
+## Observação
+- Para voltar pra home quando estiver em **Detalhes do Personagem** , basta clicar no icone "Rick e Morty",que a ação é realizada
