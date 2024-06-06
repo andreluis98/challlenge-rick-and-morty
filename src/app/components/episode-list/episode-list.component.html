@@ -1,0 +1,12 @@
+<div class="episode-list">
+  <mat-card *ngFor="let episode of filteredEpisodes">
+    <mat-card-header>
+      <mat-card-title class="clamp-text">{{ episode?.name }}</mat-card-title>
+    </mat-card-header>
+    <img src="./assets/images/logo-min.svg" alt="rick and morty">
+    <mat-card-content>
+      <p class="clamp-text">Episode: {{ episode?.episode }}</p>
+      <p class="clamp-text">Air Date: {{ episode?.air_date }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

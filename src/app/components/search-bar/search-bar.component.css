@@ -1,0 +1,26 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar{
+  background: #F0F0F0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 9999;
+}
+
+mat-toolbar img {
+  width: 176px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: -4px;
+  cursor: pointer;
+}
+
+mat-toolbar input{
+  height: 34px;
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+}

@@ -1,0 +1,5 @@
+<mat-toolbar color="primary">
+    <img src="./assets/images/logo.svg" alt="rick and morty">
+    <span class="spacer"></span>
+      <input matInput placeholder="Search" [(ngModel)]="searchTerm" (ngModelChange)="onSearchChange($event)">
+</mat-toolbar>

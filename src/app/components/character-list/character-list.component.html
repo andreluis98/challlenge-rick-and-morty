@@ -1,0 +1,12 @@
+<div class="character-list">
+  <mat-card *ngFor="let character of filteredCharacters" [routerLink]="['/character-details', character?.id]">
+    <mat-card-header>
+    </mat-card-header>
+    <mat-card-content>
+      <img mat-card-image [src]="character?.image" alt="{{ character?.name }}">
+      <mat-card-title>{{ character?.name | slice : 0:15 }}</mat-card-title>
+      <p>Status: {{ character?.status }}</p>
+      <p>Species: {{ character?.species }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

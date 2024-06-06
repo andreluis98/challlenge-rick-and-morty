@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+  <img src="./assets/images/logo.svg" [routerLink]="['/home']" alt="rick and morty">
+  <span class="spacer"></span>
+</mat-toolbar>
+
+<div class="card-container">
+  <div class="content">
+    <img class="card-image" [src]="character?.image" alt="{{ character?.name }}">
+    <div class="card-text">
+      <p class="card-title">{{ character?.name }}</p>
+      <p class="card-info">Status: {{ character?.status }}</p>
+      <p class="card-info">Species: {{ character?.species }}</p>
+      <p class="card-info">Gender: {{ character?.gender }}</p>
+      <p class="card-info">Origin: {{ character?.origin?.name }}</p>
+      <p class="card-info">Location: {{ character?.location?.name }}</p>
+    </div>
+  </div>
+</div>
