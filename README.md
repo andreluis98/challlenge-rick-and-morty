@@ -10,7 +10,6 @@ Este projeto é uma aplicação Angular desenvolvida para consumir a API "Rick a
 - [Uso](#uso)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Contatos](#contatos)
 
 ## Visão Geral
 
